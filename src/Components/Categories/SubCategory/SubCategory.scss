@@ -1,0 +1,29 @@
+
+  .sub-category {
+    display: inline-block;
+    // background: white;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.1rem 0.5rem;
+    margin: 5px;
+    margin-bottom: 0;
+    position: relative;
+    top: 3.5px;
+    cursor: pointer;
+    line-height: 15px;
+
+    .bot-line {
+      width: 100%;
+      border-radius: 50px;
+      background: white;
+      height: 3px;
+    }
+    .bot-line-selected {
+      width: 100%;
+      border-radius: 50px;
+      background: blue;
+      height: 3px;
+    }
+  }
+

@@ -1,0 +1,45 @@
+.subCategoryUploader {
+  position: absolute;
+  border: solid white;
+  top: 10px;
+  right: 60px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background: white;
+  border-radius: 15px;
+  .subUploaderTitle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    i {
+      cursor: pointer;
+    }
+  }
+  .subUploaderCategory {
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem;
+    border-bottom: solid rgb(153, 151, 151);
+
+    input {
+      background: none;
+      width: 100%;
+      border: none;
+      outline: none;
+      border-radius: 3px;
+      font-size: 1rem;
+      padding: 5px;
+      &::placeholder{
+          color: grey;
+      }
+    }
+  }
+  .add-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
